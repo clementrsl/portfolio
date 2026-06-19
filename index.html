@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clément Roussel · Portfolio · Data Analyst & Science des Données</title>
+<meta name="description" content="Portfolio de Clément Roussel, étudiant en BUT Science des Données (parcours EMS) à l'IUT de Vannes et Data Analyst en alternance. Compétences, projets (SAÉ) et alternance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;550;600;650;700&family=Sora:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <span class="dot">CR</span>
+      Clément Roussel
+    </a>
+    <nav class="nav-links" id="navlinks">
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#saes">SAÉ</a>
+      <a href="#alternance">Alternance</a>
+      <a href="#projection">BUT3</a>
+      <a class="nav-cta" href="#contact">Me contacter</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-text">
+      <span class="hero-badge"><span class="pulse"></span> Data Analyst en alternance · BUT Science des Données</span>
+      <h1>Je transforme des <span class="grad">données brutes</span> en décisions concrètes.</h1>
+      <p class="role">Étudiant en BUT Science des Données, parcours Exploration &amp; Modélisation Statistique · IUT de Vannes</p>
+      <p class="pitch">De la collecte à la restitution : j'extrais, j'analyse, je modélise et je valorise la donnée au service de problématiques métiers réelles, en cours comme en entreprise.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#saes">Découvrir mes projets
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="assets/docs/CV_Clement_Roussel.pdf" target="_blank" rel="noopener">Télécharger mon CV</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>4</strong> compétences du PN</div>
+        <div><strong>2</strong> ans d'alternance</div>
+        <div><strong>R · Python · SQL</strong> &amp; plus</div>
+      </div>
+    </div>
+
+    <div class="hero-card reveal">
+      <div class="card-top">
+        <span class="dots"><i></i><i></i><i></i></span>
+        <span class="card-tag">// fréquentation_zones.R</span>
+      </div>
+      <div class="minichart">
+        <div class="bar" data-h="38"></div>
+        <div class="bar" data-h="62"></div>
+        <div class="bar" data-h="48"></div>
+        <div class="bar" data-h="80"></div>
+        <div class="bar" data-h="55"></div>
+        <div class="bar" data-h="92"></div>
+        <div class="bar" data-h="70"></div>
+        <div class="bar" data-h="100"></div>
+      </div>
+      <div class="hero-skills">
+        <span>échantillonnage</span><span>régression</span><span>ACP</span>
+        <span>séries temporelles</span><span>clustering</span><span>datawarehouse</span><span>Qlik</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== À PROPOS ===================== -->
+<section class="section" id="apropos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">À propos</span>
+      <h2>Un profil entre rigueur statistique et terrain métier</h2>
+    </div>
+    <div class="about">
+      <aside class="about-card reveal">
+        <div class="avatar">CR</div>
+        <div class="who">Clément Roussel</div>
+        <div class="who-sub">Data Analyst en alternance · BUT SD</div>
+        <ul class="facts">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 0114 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Vannes (56), originaire d'Angers</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg> BUT Science des Données 2024–2027</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V9l7-5 7 5v12"/></svg> Alternance chez PEP, groupe Eureden</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Objectif : master orienté IA</li>
+        </ul>
+        <div class="softskills">
+          <span>Rigoureux</span><span>Autonome</span><span>Curieux</span><span>Esprit d'équipe</span>
+        </div>
+      </aside>
+
+      <div class="about-body reveal d1">
+        <p>Après un baccalauréat spécialités <strong>Mathématiques</strong> et <strong>Physique-Chimie</strong>, j'ai intégré le BUT Science des Données de l'IUT de Vannes (Université Bretagne Sud), où j'ai choisi le parcours <strong>EMS</strong> (Exploration &amp; Modélisation Statistique). Ce cursus relie les mathématiques qui m'ont toujours plu à des applications concrètes : extraire, nettoyer, analyser et valoriser des données pour éclairer une décision.</p>
+        <p>Ce qui me motive dans la data, c'est ce passage <strong>du chiffre brut au sens</strong>. Dès la première année, j'ai pris goût à construire des choses utiles : des requêtes SQL sur des bases relationnelles complexes, une <strong>macro VBA de plus de 1 500 lignes</strong> automatisant des fiches synthèse patients pour l'AP-HP (projet où j'étais chef de projet, au contact direct du client), ou l'analyse d'un questionnaire Sphinx pour le CPIE de Belle-Île-en-Mer. En deuxième année, j'ai consolidé la statistique inférentielle et découvert l'écosystème <strong>Python pour la data science</strong>.</p>
+        <p>Aujourd'hui, mon alternance de <strong>Data Analyst chez PEP</strong> (branche Œuf du groupe coopératif Eureden) ancre tout cet apprentissage dans un contexte industriel réel : organisation des données de l'entreprise, automatisation des traitements, indicateurs de pilotage et restitution adaptée aux métiers.</p>
+
+        <h3 style="margin-top:1.6rem">Mon parcours</h3>
+        <div class="timeline" style="margin-top:1rem">
+          <div class="tl-item now">
+            <div class="tl-date">2025 → 2027 · en cours</div>
+            <h4>Alternance Data Analyst, PEP / groupe Eureden</h4>
+            <p>Développement d'applications décisionnelles Qlik, gouvernance et intégration des données, au sein du pôle Data de la branche Œuf.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">2024 → 2027</div>
+            <h4>BUT Science des Données, IUT de Vannes (UBS)</h4>
+            <p>Parcours EMS. Statistique, modélisation, bases de données, programmation (R, Python, SAS, SQL) et informatique décisionnelle.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">2021 → 2024</div>
+            <h4>Baccalauréat, spécialités Maths &amp; Physique-Chimie</h4>
+            <p>Lycée Saint Joseph, La Pommeraye.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== COMPÉTENCES ===================== -->
+<section class="section section--alt" id="competences">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Référentiel BUT SD · Parcours EMS</span>
+      <h2>Les 4 compétences que je développe</h2>
+      <p class="lead">Le BUT Science des Données structure la formation autour de compétences déclinées par niveau. Voici celles de mon parcours EMS, avec le niveau visé en 2ᵉ année et leurs apprentissages critiques. Cliquez une compétence pour voir les SAÉ qui l'illustrent.</p>
+    </div>
+
+    <div class="grid grid-4">
+      <!-- Traiter -->
+      <article class="comp-card reveal" style="--cc:var(--c-traiter);--ccw:var(--c-traiter-w)">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+        <span class="lvl">Niveau 2</span>
+        <h3>Traiter</h3>
+        <p class="sub">Des données à des fins décisionnelles : <em>automatiser le traitement de données multidimensionnelles</em>.</p>
+        <ul class="ac-list">
+          <li><span class="ac-code">AC21.01</span> · Organisation des données de l'entreprise</li>
+          <li><span class="ac-code">AC21.02</span> · Rôle de l'entrepôt de données</li>
+          <li><span class="ac-code">AC21.03</span> · Intégrer des sources hétérogènes</li>
+          <li><span class="ac-code">AC21.04/05</span> · Tester, documenter, réutiliser</li>
+        </ul>
+        <div class="comp-prog">
+          <div class="pbar"><i class="on"></i><i class="now"></i><i></i></div>
+          <p class="ptxt">BUT1 niv. 1 ✓ &nbsp;·&nbsp; <b>BUT2 niv. 2 (en cours)</b> &nbsp;·&nbsp; BUT3 niv. 3 visé</p>
+        </div>
+        <div class="links">
+          <span class="chip-mini" data-jump="traiter">SID · SAS · Alternance →</span>
+        </div>
+      </article>
+
+      <!-- Analyser -->
+      <article class="comp-card reveal d1" style="--cc:var(--c-analyser);--ccw:var(--c-analyser-w)">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M4 19h16M8 16l3-4 3 2 4-6"/></svg></div>
+        <span class="lvl">Niveau 2</span>
+        <h3>Analyser</h3>
+        <p class="sub">Statistiquement les données : <em>mettre en œuvre une analyse exploratoire</em>.</p>
+        <ul class="ac-list">
+          <li><span class="ac-code">AC22.01</span> · Modélisation vs exploratoire</li>
+          <li><span class="ac-code">AC22.02</span> · Données temporelles</li>
+          <li><span class="ac-code">AC22.03</span> · Analyses multivariées</li>
+          <li><span class="ac-code">AC22.04/05</span> · Tester, limites de validité</li>
+        </ul>
+        <div class="comp-prog">
+          <div class="pbar"><i class="on"></i><i class="now"></i><i></i></div>
+          <p class="ptxt">BUT1 niv. 1 ✓ &nbsp;·&nbsp; <b>BUT2 niv. 2 (en cours)</b> &nbsp;·&nbsp; BUT3 niv. 3 visé</p>
+        </div>
+        <div class="links">
+          <span class="chip-mini" data-jump="analyser">Séries temp. · ACP · AFC →</span>
+        </div>
+      </article>
+
+      <!-- Valoriser -->
+      <article class="comp-card reveal d2" style="--cc:var(--c-valoriser);--ccw:var(--c-valoriser-w)">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><rect x="7" y="11" width="3" height="7"/><rect x="12" y="7" width="3" height="11"/><rect x="17" y="13" width="3" height="5"/></svg></div>
+        <span class="lvl">Niveau 2</span>
+        <h3>Valoriser</h3>
+        <p class="sub">Une production en contexte pro : <em>restituer et argumenter ses résultats</em>.</p>
+        <ul class="ac-list">
+          <li><span class="ac-code">AC23.01</span> · Mobiliser des ressources métiers</li>
+          <li><span class="ac-code">AC23.02</span> · Défendre ses choix d'analyses</li>
+          <li><span class="ac-code">AC23.03</span> · Indicateurs pertinents</li>
+          <li><span class="ac-code">AC23.04/05</span> · Rigueur &amp; relation pro</li>
+        </ul>
+        <div class="comp-prog">
+          <div class="pbar"><i class="on"></i><i class="now"></i><i></i></div>
+          <p class="ptxt">BUT1 niv. 1 ✓ &nbsp;·&nbsp; <b>BUT2 niv. 2 (en cours)</b> &nbsp;·&nbsp; BUT3 niv. 3 visé</p>
+        </div>
+        <div class="links">
+          <span class="chip-mini" data-jump="valoriser">Alternance · RGPD →</span>
+        </div>
+      </article>
+
+      <!-- Modéliser -->
+      <article class="comp-card reveal d3" style="--cc:var(--c-modeliser);--ccw:var(--c-modeliser-w)">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="18" r="2"/><circle cx="11" cy="11" r="2"/><circle cx="17" cy="13" r="2"/><circle cx="20" cy="6" r="2"/><path d="M7.5 16.5l2-4M12.7 11.6l2.6 .9M18.4 11.4l1.2-3.4"/></svg></div>
+        <span class="lvl">Niveau 1 · spécialité EMS</span>
+        <h3>Modéliser</h3>
+        <p class="sub">Dans un cadre statistique : <em>mettre en œuvre un modèle statistique</em>.</p>
+        <ul class="ac-list">
+          <li><span class="ac-code">AC24.01</span> · Planifier le recueil</li>
+          <li><span class="ac-code">AC24.02</span> · Terrain de collecte</li>
+          <li><span class="ac-code">AC24.03/04</span> · Choix &amp; limites du modèle</li>
+          <li><span class="ac-code">AC24.05</span> · Tests statistiques</li>
+        </ul>
+        <div class="comp-prog">
+          <div class="pbar"><i class="now"></i><i></i></div>
+          <p class="ptxt"><b>BUT2 niv. 1 (spécialité EMS)</b> &nbsp;·&nbsp; BUT3 niv. 2 visé</p>
+        </div>
+        <div class="links">
+          <span class="chip-mini" data-jump="modeliser">Échantillonnage · Régression →</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SAÉ ===================== -->
+<section class="section" id="saes">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Situations d'Apprentissage et d'Évaluation</span>
+      <h2>Mes projets de formation, illustrés par des rendus concrets</h2>
+      <p class="lead">Chaque SAÉ est une tâche authentique qui développe une ou plusieurs compétences. Toutes les figures ci-dessous sont issues de mes propres rendus R. Filtrez par compétence :</p>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">Tous</button>
+      <button class="filter-btn" data-filter="traiter">Traiter</button>
+      <button class="filter-btn" data-filter="analyser">Analyser</button>
+      <button class="filter-btn" data-filter="valoriser">Valoriser</button>
+      <button class="filter-btn" data-filter="modeliser">Modéliser</button>
+    </div>
+
+    <div class="grid grid-2">
+
+      <!-- SAÉ 3.EMS.01 -->
+      <article class="sae-card reveal" data-comp="modeliser analyser">
+        <div class="sae-fig" style="cursor:default">
+          <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schéma d'échantillonnage stratifié">
+            <rect width="480" height="300" fill="#f9fbff"/>
+            <text x="24" y="34" font-family="Sora,sans-serif" font-size="15" font-weight="700" fill="#0b1b34">Plan d'échantillonnage de la flotte</text>
+            <text x="24" y="54" font-family="Inter,sans-serif" font-size="11" fill="#6b7a93">Population : 920 navires bretons</text>
+            <!-- population grid -->
+            <g>
+              <!-- generate dots via rows -->
+              <g fill="#bcd0ef">
+                <!-- 10x6 dots -->
+                <g id="pop"></g>
+              </g>
+            </g>
+            <!-- drawn dots -->
+            <g>
+              <!-- strata colored sample subset -->
+            </g>
+            <!-- arrow -->
+            <g>
+              <rect x="30" y="74" width="190" height="150" rx="10" fill="#eaf1ff" stroke="#d4dcea"/>
+              <text x="125" y="95" text-anchor="middle" font-family="Inter" font-size="10.5" fill="#33445f" font-weight="600">920 navires · strates hétérogènes</text>
+              <!-- dots -->
+              <g fill="#2563eb" opacity="0.55">
+                <circle cx="55" cy="118" r="4"/><circle cx="80" cy="118" r="4"/><circle cx="105" cy="118" r="4"/><circle cx="130" cy="118" r="4"/><circle cx="155" cy="118" r="4"/><circle cx="180" cy="118" r="4"/><circle cx="205" cy="118" r="4"/>
+                <circle cx="55" cy="145" r="4"/><circle cx="80" cy="145" r="4"/><circle cx="105" cy="145" r="4"/><circle cx="130" cy="145" r="4"/><circle cx="155" cy="145" r="4"/><circle cx="180" cy="145" r="4"/><circle cx="205" cy="145" r="4"/>
+                <circle cx="55" cy="172" r="4"/><circle cx="80" cy="172" r="4"/><circle cx="105" cy="172" r="4"/><circle cx="130" cy="172" r="4"/><circle cx="155" cy="172" r="4"/><circle cx="180" cy="172" r="4"/><circle cx="205" cy="172" r="4"/>
+                <circle cx="55" cy="199" r="4"/><circle cx="80" cy="199" r="4"/><circle cx="105" cy="199" r="4"/><circle cx="130" cy="199" r="4"/><circle cx="155" cy="199" r="4"/><circle cx="180" cy="199" r="4"/><circle cx="205" cy="199" r="4"/>
+              </g>
+            </g>
+            <path d="M230 150 h32" stroke="#07b3c8" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+            <defs><marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9z" fill="#07b3c8"/></marker></defs>
+            <g>
+              <rect x="280" y="92" width="170" height="116" rx="10" fill="#e2f7fb" stroke="#9fe2ec"/>
+              <text x="365" y="113" text-anchor="middle" font-family="Inter" font-size="10.5" fill="#0b6b78" font-weight="700">Échantillon optimisé</text>
+              <g fill="#07b3c8">
+                <circle cx="305" cy="135" r="4"/><circle cx="330" cy="135" r="4"/><circle cx="355" cy="135" r="4"/><circle cx="380" cy="135" r="4"/><circle cx="405" cy="135" r="4"/><circle cx="430" cy="135" r="4"/>
+                <circle cx="305" cy="162" r="4"/><circle cx="330" cy="162" r="4"/><circle cx="355" cy="162" r="4"/><circle cx="380" cy="162" r="4"/><circle cx="405" cy="162" r="4"/>
+                <circle cx="318" cy="188" r="4"/><circle cx="343" cy="188" r="4"/><circle cx="368" cy="188" r="4"/><circle cx="393" cy="188" r="4"/>
+              </g>
+            </g>
+            <rect x="280" y="222" width="170" height="50" rx="8" fill="#ffffff" stroke="#d4dcea"/>
+            <text x="365" y="244" text-anchor="middle" font-family="Sora" font-size="18" font-weight="700" fill="#1f5fe0">285 navires</text>
+            <text x="365" y="261" text-anchor="middle" font-family="Inter" font-size="10" fill="#18a06f" font-weight="600">−17 % d'enquêtes à précision égale</text>
+          </svg>
+          <div class="fig-cap">Stratification + simulations de Monte-Carlo (reconstitution)</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 3.EMS.01 · Échantillonnage &amp; plan d'expérience</div>
+          <h3>Enquêter 920 navires de pêche bretons… sans tous les interroger</h3>
+          <div class="sae-tags">
+            <span class="tag t-modeliser">Modéliser</span>
+            <span class="tag t-analyser">Analyser</span>
+          </div>
+          <p class="sae-desc">Sur le projet réel <strong>Valpena</strong> (cartographie des zones de pêche), j'ai construit et optimisé sous R un <strong>plan d'échantillonnage stratifié</strong>, validé par simulations de Monte-Carlo, qui économise 17 % d'enquêtes à précision égale, puis cartographié la fréquentation via 4 indicateurs pondérés.</p>
+          <div class="sae-tools">
+            <span>R</span><span>package sampling</span><span>strates SAS/SR</span><span>Monte-Carlo</span><span>cartographie (sf)</span>
+          </div>
+          <div class="sae-more">
+            <div class="sae-detail">
+              <div>
+                <h4>Objectifs &amp; livrables</h4>
+                <ul class="mini-list">
+                  <li>Dimensionner et optimiser un plan d'échantillonnage stratifié sur une flotte de 920 navires</li>
+                  <li>Estimer la fréquentation des zones de pêche (4 indicateurs pondérés) et valider par simulations de Monte-Carlo</li>
+                  <li><b>Livrables :</b> rapport Valpena, scripts R, cartes choroplèthes, analyse critique d'articles (INSEE, Statistics Canada)</li>
+                </ul>
+                <h4>Ma contribution</h4>
+                <p>Comparaison de l'approche théorique (272 navires) à deux stratégies de stratification réelles : une strate systématique pour les groupes &lt; 5 navires + un tirage aléatoire stratifié sans remise. J'ai montré qu'un second regroupement réduit la variance et fait passer l'effort de <strong>343 à 285 enquêtes (−17 %)</strong>. Calcul des poids de sondage corrigés de la non-réponse, estimation des indicateurs ID/II/IDS/IDI par maille, et validation par Monte-Carlo (biais nul, hausse d'EQM négligeable).</p>
+                <h4>Apprentissages critiques</h4>
+                <div class="ac-row"><b>AC24.01/02</b> : Planifier le recueil et gérer les limites du terrain (non-réponse, navires « intrus », strates vides).</div>
+                <div class="ac-row"><b>AC24.04/05</b> : Conditions d'application (tests de Shapiro-Wilk &amp; Levene en ANOVA) et validation par simulation.</div>
+                <div class="ac-row"><b>AC22.04</b> : Confronter l'hypothèse théorique à la réalité pour décider du plan retenu.</div>
+                <h4>Auto-évaluation</h4>
+                <p>Socle <strong>Modéliser N1 maîtrisé</strong> : j'ai couvert toute la chaîne d'un projet de sondage réel. L'optimisation fine de plans et l'automatisation des simulations (passage à plusieurs centaines de répétitions) restent mes axes de progression.</p>
+                <h4>Difficultés rencontrées</h4>
+                <p>Le passage de la théorie au terrain : le calcul théorique ignore l'hétérogénéité de la flotte, imposant de reconstruire la stratification et de gérer la non-réponse (poids corrigés, strates vides, navires « intrus »). Les données restent déclaratives et sensibles aux non-réponses au-delà d'un certain seuil.</p>
+                <h4>À télécharger</h4>
+                <div class="dl-row">
+                  <a class="dl-chip" href="assets/downloads/SAE3-EMS-01_Rapport_Valpena.docx" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>Rapport projet Valpena <small>DOCX</small></a>
+                  <a class="dl-chip" href="assets/downloads/SAE3-EMS-01_TP_Echantillonnage.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>TP échantillonnage <small>PDF</small></a>
+                </div>
+              </div>
+            </div>
+            <button class="sae-toggle" aria-expanded="false">
+              <span>Voir le détail</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- SAÉ 3.03 -->
+      <article class="sae-card reveal d1" data-comp="analyser">
+        <div class="sae-fig" data-zoom data-caption="SAÉ 3.03 : Prévision par moindres carrés d'une série de température (modèle sinus-cosinus), R">
+          <img src="assets/img/figures/temporel_prevision.png" alt="Prévision par moindres carrés d'une série temporelle">
+          <div class="fig-cap">Prévision par moindres carrés (modèle sinus + cosinus) · R</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 3.03 · Description &amp; prévision de données temporelles</div>
+          <h3>Décrire le passé d'une série, projeter son avenir</h3>
+          <div class="sae-tags">
+            <span class="tag t-analyser">Analyser</span>
+          </div>
+          <p class="sae-desc">De la courbe de <strong>CO₂ de Mauna Loa</strong> aux flux touristiques de Saint-Malo, j'ai décortiqué sous R des séries temporelles réelles : tendance, saisonnalité, lissage et prévision, à l'aide de la régression par moindres carrés, du modèle sinus-cosinus, des moyennes mobiles et de l'autocorrélogramme.</p>
+          <div class="sae-tools">
+            <span>R</span><span>objet ts()</span><span>lm / moindres carrés</span><span>ACF</span><span>moyennes mobiles</span>
+          </div>
+          <div class="sae-more">
+            <div class="sae-detail">
+              <div>
+                <h4>Objectifs &amp; livrables</h4>
+                <ul class="mini-list">
+                  <li>Décrire des séries temporelles réelles (tendance, saisonnalité, résidus)</li>
+                  <li>Lisser (moyennes mobiles), modéliser (moindres carrés, sinus-cosinus) et prévoir</li>
+                  <li><b>Livrables :</b> notebooks R (CO₂ de Mauna Loa, températures France, tourisme de Saint-Malo) et template d'analyse réutilisable</li>
+                </ul>
+                <h4>Ma contribution</h4>
+                <p>Sur le CO₂ Hawaii : objet <code>ts(frequency=12)</code>, ajustement de la tendance par <code>lm</code>, désaisonnalisation et reconstruction du profil saisonnier. Sur les températures France : modèle <code>sin/cos</code> et prévision à 24 mois. Programmation manuelle des moyennes mobiles (ordre 3 et centrée ordre 4) et lecture d'un autocorrélogramme (pics aux multiples de 12 = saisonnalité).</p>
+                <h4>Apprentissages critiques</h4>
+                <div class="ac-row"><b>AC22.02</b> : Spécificité de l'analyse des données temporelles (cœur de la SAÉ).</div>
+                <div class="ac-row"><b>AC22.01</b> : Articuler phase exploratoire (chronogramme, ACF) et modélisation paramétrique.</div>
+                <div class="ac-row"><b>AC22.05</b> : Distinguer modèle additif et multiplicatif, linéariser une tendance par transformation.</div>
+                <h4>Auto-évaluation</h4>
+                <p>Cycle <strong>décrire → décomposer → prévoir</strong> opérationnel. À consolider : l'évaluation chiffrée de la qualité prédictive (RMSE, intervalles de prévision, Holt-Winters) et la validation formelle des résidus.</p>
+                <h4>Difficultés rencontrées</h4>
+                <p>Manipulation rigoureuse des objets <code>ts</code> (cohérence entre série, valeurs ajustées et prévisions), réplication correcte de la composante saisonnière, construction manuelle de la moyenne mobile centrée d'ordre pair, et choix entre modèle additif et multiplicatif.</p>
+                <h4>À télécharger</h4>
+                <div class="dl-row">
+                  <a class="dl-chip" href="assets/downloads/SAE3-03_Notebook_Series_temporelles.html" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>Notebook séries temporelles <small>HTML</small></a>
+                </div>
+              </div>
+            </div>
+            <button class="sae-toggle" aria-expanded="false">
+              <span>Voir le détail</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- SAÉ 4.01 -->
+      <article class="sae-card reveal d2" data-comp="modeliser analyser">
+        <div class="sae-fig" data-zoom data-caption="SAÉ 4.01 : Graphe des coefficients de régression avec significativité, jeu poids de naissance, R">
+          <img src="assets/img/figures/reg_coefficients.png" alt="Graphe des coefficients d'une régression multiple">
+          <div class="fig-cap">Effets &amp; significativité des variables (régression multiple) · R</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 4.EMS.01 · Expliquer / prédire par régression</div>
+          <h3>Prédire une variable quantitative par régression linéaire</h3>
+          <div class="sae-tags">
+            <span class="tag t-modeliser">Modéliser</span>
+            <span class="tag t-analyser">Analyser</span>
+          </div>
+          <p class="sae-desc">De la régression simple au modèle multiple sélectionné par <strong>BIC</strong> : diagnostics de résidus, VIF, tests de Fisher. Une démarche complète et reproductible en R sur le jeu <strong>Boston Housing</strong> (prix des logements), validée par <strong>validation croisée répétée et bootstrap</strong>.</p>
+          <div class="sae-tools">
+            <span>R</span><span>lm (MCO)</span><span>regsubsets / stepwise</span><span>VIF</span><span>validation croisée</span><span>bootstrap</span>
+          </div>
+          <div class="sae-more">
+            <div class="sae-detail">
+              <div>
+                <h4>Objectifs &amp; livrables</h4>
+                <ul class="mini-list">
+                  <li>Expliquer et prédire une variable quantitative par régression (simple puis multiple)</li>
+                  <li>Sélectionner les variables (BIC, stepwise), vérifier les hypothèses, évaluer la performance (validation croisée, bootstrap)</li>
+                  <li><b>Livrables :</b> notebooks des TP, notebook projet Boston Housing et fiche descriptive des données</li>
+                </ul>
+                <h4>Ma contribution</h4>
+                <p>Montée en compétence sur un jeu pédagogique (poids de naissance) puis transposition au projet <strong>Boston Housing</strong> (506 logements, 13 variables). Régression simple → multiple avec variables qualitatives, sélection exhaustive (<code>regsubsets</code>) et pas-à-pas (AIC/BIC), diagnostics complets (résidus studentisés, QQ-plot, distance de Cook), détection de multicolinéarité par VIF, test F partiel sur modèles emboîtés, puis évaluation robuste de l'erreur (train/test 80-20, validation croisée K=10 répétée 200×, bootstrap OOB).</p>
+                <h4>Apprentissages critiques</h4>
+                <div class="ac-row"><b>AC24.03/04</b> : Choix du modèle selon le type de données et vérification des hypothèses MCO.</div>
+                <div class="ac-row"><b>AC24.05</b> : Tests statistiques pour valider l'apport de variables (test F partiel).</div>
+                <div class="ac-row"><b>AC22.03/05</b> : Synthèse multivariée et quantification de l'incertitude de performance.</div>
+                <h4>Auto-évaluation</h4>
+                <p>Chaîne de régression <strong>maîtrisée de bout en bout</strong>. En consolidation : l'arbitrage critique entre critères de sélection divergents et le passage de la performance technique (RMSE) à une recommandation métier.</p>
+                <h4>Difficultés rencontrées</h4>
+                <p>Gestion des noms d'indicatrices générés par <code>regsubsets</code> (fonction de retraduction vers les colonnes d'origine), synchronisation des niveaux de facteur entre train et test, colinéarité tax/rad signalée par le VIF, critères de sélection divergents (R² ajusté vs Cp vs BIC) et plafonnement artificiel de <code>medv</code> à 50 k$.</p>
+                <h4>À télécharger</h4>
+                <div class="dl-row">
+                  <a class="dl-chip" href="assets/downloads/SAE4-01_Notebook_Boston_Housing.html" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>Notebook projet Boston <small>HTML</small></a>
+                  <a class="dl-chip" href="assets/downloads/SAE4-01_TP_Regression.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>TP régression <small>PDF</small></a>
+                </div>
+              </div>
+            </div>
+            <button class="sae-toggle" aria-expanded="false">
+              <span>Voir le détail</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- SAÉ 4.02 -->
+      <article class="sae-card reveal d3" data-comp="analyser valoriser">
+        <div class="sae-fig" data-zoom data-caption="SAÉ 4.02 : Classification (clustering) des villes françaises dans le plan factoriel de l'ACP, R">
+          <img src="assets/img/figures/acp_clustering.png" alt="Clustering des villes françaises projeté sur le plan de l'ACP">
+          <div class="fig-cap">ACP + clustering des villes françaises (climat) · R / FactoMineR</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 4.02 · Analyses multivariées &amp; Tidyverse</div>
+          <h3>Réduire la complexité pour révéler la structure</h3>
+          <div class="sae-tags">
+            <span class="tag t-analyser">Analyser</span>
+            <span class="tag t-valoriser">Valoriser</span>
+          </div>
+          <p class="sae-desc">Grâce à l'<strong>ACP</strong> et au <strong>clustering</strong>, j'ai synthétisé des dizaines de variables en quelques axes lisibles : criminalité des États américains, climat des villes françaises. De la mécanique recodée à la main jusqu'aux pipelines <strong>Tidyverse</strong> sur le Top Spotify.</p>
+          <div class="sae-tools">
+            <span>R</span><span>FactoMineR / factoextra</span><span>ACP normée</span><span>k-means</span><span>Tidyverse</span>
+          </div>
+          <div class="sae-more">
+            <div class="sae-detail">
+              <div>
+                <h4>Objectifs &amp; livrables</h4>
+                <ul class="mini-list">
+                  <li>Synthétiser des variables corrélées par ACP normée (crimes des États US, climat des villes françaises)</li>
+                  <li>Classer par k-means (méthode du coude) et manipuler des données avec le Tidyverse (Top Spotify)</li>
+                  <li><b>Livrables :</b> notebooks R (ACP, clustering, Tidyverse) et rendu Word d'interprétation</li>
+                </ul>
+                <h4>Ma contribution</h4>
+                <p>ACP des crimes US <strong>recodée à la main</strong> (matrice de corrélation, valeurs/vecteurs propres via <code>eigen</code>) puis confrontée à FactoMineR, avec gestion de la correction n vs n−1 sur <code>scale()</code> pour retrouver le résultat attendu. Interprétation des axes (axe 1 = intensité globale, 59 % d'inertie), détection des individus atypiques. Clustering k-means des villes par la méthode du coude (WSS). Pipelines Tidyverse sur le Top Spotify (group_by, summarise, recodage en classes).</p>
+                <h4>Apprentissages critiques</h4>
+                <div class="ac-row"><b>AC22.03</b> : Analyses multivariées pour synthétiser l'information (cœur de la SAÉ).</div>
+                <div class="ac-row"><b>AC22.05</b> : Critère de Kaiser, choix du nombre de clusters, conditions d'application.</div>
+                <div class="ac-row"><b>AC21.04/05</b> : Recodage manuel validé contre une brique logicielle existante.</div>
+                <h4>Auto-évaluation</h4>
+                <p>Maîtrise <strong>solide et réflexive</strong> de l'ACP (j'ai recodé la méthode plutôt que d'appeler une fonction boîte noire). À pousser : la caractérisation complète des clusters finaux et la systématisation de la restitution.</p>
+                <h4>Difficultés rencontrées</h4>
+                <p>La divergence entre le résultat « scolaire » attendu et la sortie de R, due à l'écart-type corrigé (n−1) : résolue par un facteur de correction <code>sqrt((n-1)/n)</code>. Gestion du signe des vecteurs propres et de la lisibilité du plan factoriel (affichage des 15 individus les plus contributifs).</p>
+                <h4>À télécharger</h4>
+                <div class="dl-row">
+                  <a class="dl-chip" href="assets/downloads/SAE4-02_Notebook_ACP_Clustering.html" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>Notebook ACP / clustering <small>HTML</small></a>
+                  <a class="dl-chip" href="assets/downloads/SAE4-02_Interpretation_ACP_crimes.docx" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>Interprétation ACP crimes <small>DOCX</small></a>
+                </div>
+              </div>
+            </div>
+            <button class="sae-toggle" aria-expanded="false">
+              <span>Voir le détail</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Ressources mobilisées -->
+    <div class="section-head reveal" style="margin-top:3.4rem;margin-bottom:1.6rem">
+      <h2 style="font-size:1.5rem">Ressources &amp; outils mobilisés</h2>
+      <p class="lead">Au-delà des SAÉ, ces enseignements consolident chaque compétence.</p>
+    </div>
+    <div class="grid grid-4">
+      <article class="sae-card reveal" data-comp="traiter" style="">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · SID</div>
+          <h3 style="font-size:1.02rem">Systèmes d'Information Décisionnels</h3>
+          <div class="sae-tags"><span class="tag t-traiter">Traiter</span></div>
+          <p class="sae-desc">Découverte des entrepôts de données sous <strong>Oracle SQL Developer</strong> : SQL avancé, <strong>modélisation dimensionnelle</strong> (schéma en étoile, faits et dimensions) et notions d'optimisation décisionnelle (vues matérialisées, index bitmap de jointure).</p>
+          <div class="sae-tools"><span>Oracle SQL Developer</span><span>SQL</span><span>schéma en étoile</span></div>
+        </div>
+      </article>
+      <article class="sae-card reveal d1" data-comp="analyser">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · Méthodes factorielles</div>
+          <h3 style="font-size:1.02rem">AFC &amp; AFCM</h3>
+          <div class="sae-tags"><span class="tag t-analyser">Analyser</span></div>
+          <p class="sae-desc">Des achats alimentaires de 1972 aux loisirs des Français : <strong>analyse factorielle des correspondances</strong> (simple et multiple) pour révéler, sur un plan, les oppositions cachées entre catégories.</p>
+          <div class="sae-tools"><span>R</span><span>ade4</span><span>FactoMineR</span></div>
+        </div>
+      </article>
+      <article class="sae-card reveal d2" data-comp="traiter">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · Programmation statistique</div>
+          <h3 style="font-size:1.02rem">Chaîne de traitement SAS</h3>
+          <div class="sae-tags"><span class="tag t-traiter">Traiter</span></div>
+          <p class="sae-desc">8 fichiers de ventes de la grande distribution consolidés en une table analytique unique via des <strong>macros</strong>, des jointures multi-clés et des formats métier, puis classements et tableaux croisés décisionnels.</p>
+          <div class="sae-tools"><span>SAS</span><span>macro-langage</span><span>PROC SQL / TABULATE</span></div>
+        </div>
+      </article>
+      <article class="sae-card reveal d3" data-comp="valoriser">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · Droit des données</div>
+          <h3 style="font-size:1.02rem">RGPD &amp; conformité</h3>
+          <div class="sae-tags"><span class="tag t-valoriser">Valoriser</span></div>
+          <p class="sae-desc">Qualifier les acteurs d'un traitement, auditer un contrat de sous-traitance (<strong>article 28</strong>) et démêler les transferts hors UE. Le réflexe juridique indispensable quand on manipule des données personnelles.</p>
+          <div class="sae-tools"><span>RGPD</span><span>art. 4 / 9 / 28</span><span>pseudonymisation</span></div>
+        </div>
+      </article>
+      <article class="sae-card reveal" data-comp="valoriser">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · Reporting</div>
+          <h3 style="font-size:1.02rem">Reporting Power BI</h3>
+          <div class="sae-tags"><span class="tag t-valoriser">Valoriser</span></div>
+          <p class="sae-desc">Projet de <strong>tableau de bord décisionnel</strong> sous Power BI : modèle de données, mesures et visualisations interactives à partir de données d'entreprise (commandes, articles, ventes).</p>
+          <div class="sae-tools"><span>Power BI</span><span>Power Query</span><span>dataviz</span></div>
+        </div>
+      </article>
+      <article class="sae-card reveal d1" data-comp="analyser">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · Intelligence Artificielle</div>
+          <h3 style="font-size:1.02rem">Python pour la science des données</h3>
+          <div class="sae-tags"><span class="tag t-analyser">Analyser</span></div>
+          <p class="sae-desc">Initiation à la <strong>science des données en Python</strong> (NumPy, Pandas, visualisation) et aux premières briques de l'apprentissage automatique, un tremplin vers la modélisation prédictive visée en BUT3.</p>
+          <div class="sae-tools"><span>Python</span><span>NumPy</span><span>Pandas</span></div>
+        </div>
+      </article>
+      <article class="sae-card reveal d2" data-comp="modeliser">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · Modèle linéaire</div>
+          <h3 style="font-size:1.02rem">Modèle linéaire</h3>
+          <div class="sae-tags"><span class="tag t-modeliser">Modéliser</span></div>
+          <p class="sae-desc">Fondements de la <strong>régression linéaire</strong> (estimation, tests, diagnostics des résidus) mis en pratique dans la SAÉ 4.01.</p>
+          <div class="sae-tools"><span>R</span><span>régression</span><span>tests statistiques</span></div>
+        </div>
+      </article>
+      <article class="sae-card reveal d3" data-comp="analyser">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · Classification automatique</div>
+          <h3 style="font-size:1.02rem">Classification automatique</h3>
+          <div class="sae-tags"><span class="tag t-analyser">Analyser</span></div>
+          <p class="sae-desc">Méthodes de <strong>classification non supervisée</strong> (k-means, classification ascendante hiérarchique) mises en œuvre dans la SAÉ 4.02.</p>
+          <div class="sae-tools"><span>R</span><span>k-means</span><span>CAH</span></div>
+        </div>
+      </article>
+      <article class="sae-card reveal" data-comp="traiter">
+        <div class="sae-body">
+          <div class="sae-id">Ressource · Automatisation &amp; test</div>
+          <h3 style="font-size:1.02rem">Automatisation &amp; test en programmation</h3>
+          <div class="sae-tags"><span class="tag t-traiter">Traiter</span></div>
+          <p class="sae-desc">Bonnes pratiques de <strong>test et de documentation</strong> du code pour des programmes fiables et maintenables (AC21.04).</p>
+          <div class="sae-tools"><span>programmation</span><span>tests</span><span>documentation</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ALTERNANCE ===================== -->
+<section class="section section--alt" id="alternance">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Alternance · 2025 → 2027</span>
+      <h2>Data Analyst chez PEP, groupe Eureden</h2>
+      <p class="lead">Au pôle Data de la branche Œuf, je développe des applications décisionnelles <strong>Qlik</strong> au service des métiers : de l'organisation des données brutes de l'ERP jusqu'aux tableaux de bord de pilotage.</p>
+    </div>
+
+    <div class="alt-hero">
+      <div class="alt-firm reveal">
+        <h3>PEP / Cocotine, branche Œuf</h3>
+        <p style="font-size:.94rem;color:var(--ink-3)">Leader français des ovoproduits (marque Cocotine), au sein du 3ᵉ groupe coopératif agroalimentaire français <strong>Eureden</strong>. Je suis rattaché au pôle Data (2 personnes) de l'équipe SI Métier, encadré par la Data Manager.</p>
+        <div class="kpis">
+          <div><strong>3,7 Md€</strong><span>CA du groupe</span></div>
+          <div><strong>~200</strong><span>références d'ovoproduits</span></div>
+          <div><strong>5</strong><span>sources de données</span></div>
+        </div>
+      </div>
+      <div class="reveal d1">
+        <h3 style="margin-bottom:.4rem">L'écosystème data que j'exploite</h3>
+        <p style="font-size:.9rem;color:var(--ink-3);margin-bottom:1rem">De l'ERP JDE aux applications métiers, en passant par le datalake et les fichiers QVD de Qlik.</p>
+        <div class="qlik" style="box-shadow:var(--shadow-s)">
+          <div style="padding:1rem">
+            <svg viewBox="0 0 620 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Architecture des données">
+              <defs><marker id="a2" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9z" fill="#9fb0c9"/></marker></defs>
+              <!-- nodes -->
+              <g font-family="Inter,sans-serif">
+                <rect x="6" y="48" width="92" height="54" rx="9" fill="#eef2f9" stroke="#d4dcea"/>
+                <text x="52" y="71" text-anchor="middle" font-size="12" font-weight="700" fill="#0b1b34">ERP JDE</text>
+                <text x="52" y="88" text-anchor="middle" font-size="9" fill="#6b7a93">F4101, F4211…</text>
+
+                <rect x="142" y="48" width="92" height="54" rx="9" fill="#eef2f9" stroke="#d4dcea"/>
+                <text x="188" y="71" text-anchor="middle" font-size="12" font-weight="700" fill="#0b1b34">Datalake</text>
+                <text x="188" y="88" text-anchor="middle" font-size="9" fill="#6b7a93">AWS · DSI</text>
+
+                <rect x="278" y="48" width="92" height="54" rx="9" fill="#eef2f9" stroke="#d4dcea"/>
+                <text x="324" y="68" text-anchor="middle" font-size="12" font-weight="700" fill="#0b1b34">Datamart</text>
+                <text x="324" y="85" text-anchor="middle" font-size="9" fill="#6b7a93">+ fichiers QVD</text>
+
+                <rect x="414" y="44" width="96" height="62" rx="9" fill="#0e1b30" stroke="#0e1b30"/>
+                <text x="462" y="70" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff">Qlik<tspan fill="#18c39a"> Cloud</tspan></text>
+                <text x="462" y="87" text-anchor="middle" font-size="9" fill="#9fb0c9">apps décisionnelles</text>
+
+                <rect x="540" y="40" width="74" height="70" rx="9" fill="#eaf1ff" stroke="#bcd0ef"/>
+                <text x="577" y="63" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1f5fe0">Métiers</text>
+                <text x="577" y="79" text-anchor="middle" font-size="8" fill="#33445f">commerce</text>
+                <text x="577" y="91" text-anchor="middle" font-size="8" fill="#33445f">logistique</text>
+                <text x="577" y="103" text-anchor="middle" font-size="8" fill="#33445f">qualité…</text>
+
+                <path d="M100 75 h38" stroke="#9fb0c9" stroke-width="2" marker-end="url(#a2)"/>
+                <path d="M236 75 h38" stroke="#9fb0c9" stroke-width="2" marker-end="url(#a2)"/>
+                <path d="M372 75 h38" stroke="#9fb0c9" stroke-width="2" marker-end="url(#a2)"/>
+                <path d="M512 75 h24" stroke="#9fb0c9" stroke-width="2" marker-end="url(#a2)"/>
+                <text x="324" y="125" text-anchor="middle" font-size="9" fill="#6b7a93" font-style="italic">+ Google Sheets, reprise Cognos / Looker</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission principale -->
+    <div class="mission feature reveal">
+      <div class="m-head">
+        <div class="pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l3-3 3 2 4-5"/></svg></div>
+        <div>
+          <h3>Mission principale : Application « Stock, Inventaire &amp; Commandes » (site de Carvin)</h3>
+          <span class="m-tag">développée de A à Z · méthode agile · recettage</span>
+        </div>
+      </div>
+      <div class="grid grid-2" style="align-items:center">
+        <div>
+          <p>Un utilisateur logistique pilotait son stock à la main, chaque matin, dans plusieurs Google Sheets, un « shadow BI » chronophage et fragile. J'ai conçu une <strong>application Qlik unique, automatisée et gouvernée</strong> qui centralise stock, commandes, inventaires et ruptures, alimentée directement par une dizaine de tables brutes de l'ERP.</p>
+          <p>Le point marquant : un écart inexplicable sur les poids, dû à un <strong>facteur de conversion modifié dans l'ERP sans préavis</strong>. Mon recettage systématique, ligne à ligne, l'a débusqué, et l'application s'est révélée plus fiable que la source de référence elle-même.</p>
+          <div class="sae-tools" style="margin-bottom:0">
+            <span>Qlik Cloud</span><span>script de chargement</span><span>ApplyMap</span><span>Set Analysis</span><span>~10 tables ERP</span>
+          </div>
+        </div>
+        <!-- Qlik mockup : stock (reconstitution fidèle, données fictives) -->
+        <div class="qmock reveal d1">
+          <div class="qm-head"><span>Stock, Inventaire &amp; Commandes · Carvin</span><span class="qm-anon">reconstitution anonymisée</span></div>
+          <div class="qm-filters">
+            <span>Magasin</span><span>Article</span><span>Sous-famille</span><span>Statut lot</span><span>Semaine</span><span>Atelier</span>
+          </div>
+          <div class="qm-meas">
+            <span>Quantité en stock</span><span class="on">Quantité disponible</span><span>Quantité bloquée</span><span>Taux d'expédition</span><span>Taux de rupture</span>
+          </div>
+          <div class="qm-wrap">
+            <table>
+              <thead><tr><th>Magasin</th><th>Stock (kg)</th><th>Disponible</th><th>Bloqué</th><th>Expédié</th><th>Rupture</th></tr></thead>
+              <tbody>
+                <tr class="tot"><td>Totaux</td><td>17 240</td><td>15 880</td><td>1 360</td><td>95,8 %</td><td>2,4 %</td></tr>
+                <tr><td>8701</td><td>8 610</td><td>8 020</td><td>590</td><td>96,9 %</td><td>1,6 %</td></tr>
+                <tr><td>8703</td><td>5 470</td><td>4 980</td><td>490</td><td>95,1 %</td><td>2,9 %</td></tr>
+                <tr><td>8714</td><td>3 160</td><td>2 880</td><td>280</td><td>94,7 %</td><td>3,3 %</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Autres missions -->
+    <div class="grid grid-2">
+      <div class="mission reveal">
+        <div class="m-head">
+          <div class="pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 17l6-6-6-6M12 19h8"/></svg></div>
+          <div><h3>Carnet de commandes, pour le commerce</h3><span class="m-tag">mon application la plus utilisée</span></div>
+        </div>
+        <p style="font-size:.92rem">Donner aux commerciaux la visibilité sur les commandes saisies dans l'ERP mais <strong>non encore facturées</strong>. Reconstruction de la logique métier (filtres de statuts, exclusion des lignes livrées), rafraîchissement quotidien automatique et bouton de bascule <strong>FR / EN</strong>. Résultat : plus besoin de réclamer des extractions brutes aux assistantes commerciales.</p>
+        <div class="qmock reveal d1">
+          <div class="qm-head"><span>Carnet de commandes (sans échantillon)</span><span class="qm-anon">reconstitution anonymisée</span></div>
+          <div class="qm-filters">
+            <span>Exercice Fiscal</span><span>Année</span><span>Mois</span><span>Semaine</span><span>Réseau</span><span>Fraîcheur</span><span>Sous-famille B&amp;S</span><span>Pays</span>
+            <span class="qm-fr">FR</span>
+          </div>
+          <div class="qm-meas">
+            <span class="on">Quantité commandée (kg)</span><span>Prix facturé (€/kg)</span><span>Quantité commandée (unité)</span><span>Prix facturé (€/unité)</span><span>Montant facturé (€)</span>
+          </div>
+          <div class="qm-wrap">
+            <table>
+              <thead>
+                <tr class="grp"><th></th><th colspan="3">Exercice 2025-2026</th><th colspan="3">Exercice 2026-2027</th></tr>
+                <tr><th>Date</th><th>Qté (kg)</th><th>€/kg</th><th>Montant €</th><th>Qté (kg)</th><th>€/kg</th><th>Montant €</th></tr>
+              </thead>
+              <tbody>
+                <tr class="tot"><td>Totaux</td><td>385 400</td><td>7,12</td><td>2 144 800</td><td>298 600</td><td>6,84</td><td>1 612 300</td></tr>
+                <tr><td>18/06</td><td>104 200</td><td>6,80</td><td>612 400</td><td>-</td><td>-</td><td>-</td></tr>
+                <tr><td>22/06</td><td>39 700</td><td>7,21</td><td>262 100</td><td>-</td><td>-</td><td>-</td></tr>
+                <tr><td>26/06</td><td>27 050</td><td>7,30</td><td>141 800</td><td>-</td><td>-</td><td>-</td></tr>
+                <tr><td>01/07</td><td>-</td><td>-</td><td>-</td><td>48 600</td><td>5,82</td><td>239 100</td></tr>
+                <tr><td>03/07</td><td>-</td><td>-</td><td>-</td><td>19 400</td><td>6,15</td><td>96 700</td></tr>
+                <tr><td>08/07</td><td>-</td><td>-</td><td>-</td><td>34 900</td><td>5,70</td><td>178 500</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal d1">
+        <div class="mission" style="margin-bottom:var(--gap)">
+          <div class="m-head">
+            <div class="pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v6H4zM4 14h16v6H4z"/></svg></div>
+            <div><h3>Migration Qlik Cloud &amp; gouvernance</h3></div>
+          </div>
+          <p style="font-size:.92rem;margin:0">Accompagnement de la bascule de Qlik Sense vers <strong>Qlik Cloud</strong> : recensement des applications, identification des <em>Report Owners</em> et des applications à reprendre en priorité (tables codées « en dur »).</p>
+        </div>
+        <div class="mission" style="margin-bottom:var(--gap)">
+          <div class="m-head">
+            <div class="pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18"/></svg></div>
+            <div><h3>Harmonisation des sources (~12 apps)</h3></div>
+          </div>
+          <p style="font-size:.92rem;margin:0">Industrialisation des connexions de données : remplacement de sources Excel par des <strong>QVD</strong> performants et des mappings dynamiques, et détection au passage d'anomalies de données enfouies depuis des années.</p>
+        </div>
+        <div class="mission" style="margin-bottom:0">
+          <div class="m-head">
+            <div class="pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <div><h3>Création d'articles dans l'ERP &amp; IA copilote</h3></div>
+          </div>
+          <p style="font-size:.92rem;margin:0">Gestion de fiches articles dans JDE (rigueur à chaque écran de saisie) et usage quotidien de l'<strong>IA comme copilote technique</strong> (pour déboguer ou optimiser un script), toujours relu, testé et adapté à notre environnement.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- lien compétences -->
+    <div class="reveal" style="margin-top:2.4rem;padding:1.4rem 1.6rem;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-s)">
+      <p style="margin:0 0 .8rem;font-weight:600;color:var(--ink)">Ce que mon alternance développe, en lien avec le référentiel :</p>
+      <div style="display:flex;flex-wrap:wrap;gap:.8rem">
+        <span class="tag t-traiter">Traiter</span><span style="font-size:.88rem;color:var(--ink-3)">organisation des données de l'entreprise, intégration de ~5 sources hétérogènes, scripts testés &amp; documentés</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.8rem;margin-top:.6rem">
+        <span class="tag t-valoriser">Valoriser</span><span style="font-size:.88rem;color:var(--ink-3)">indicateurs de pilotage, recueil du besoin métier, restitution adaptée, recettage rigoureux avec l'utilisateur</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.8rem;margin-top:.6rem">
+        <span class="tag t-modeliser">Modéliser</span><span style="font-size:.88rem;color:var(--ink-3)">modélisation de données brutes et imparfaites (mappings, conversions d'unités, règles de gestion)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTION BUT3 ===================== -->
+<section class="section" id="projection">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Et après ? · Bonus</span>
+      <h2>Ma projection en BUT3</h2>
+      <p class="lead">Pour chaque compétence, ce que je souhaite renforcer l'an prochain, et par quels leviers (SAÉ de 3ᵉ année et poursuite de l'alternance). Objectif à terme : un <strong>master orienté Intelligence Artificielle</strong>.</p>
+    </div>
+    <div class="grid grid-2">
+      <article class="proj-card reveal" style="--cc:var(--c-traiter)">
+        <div class="p-comp">TRAITER → niveau supérieur</div>
+        <h3>Industrialiser une chaîne décisionnelle complète</h3>
+        <p>Aller au-delà des bases relationnelles vers l'intégration de sources et les volumes massifs, avec des pipelines Python automatisés et documentés.</p>
+        <div class="via"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg> SAÉ Big Data / entrepôt de données &amp; alternance PEP</div>
+      </article>
+      <article class="proj-card reveal d1" style="--cc:var(--c-analyser)">
+        <div class="p-comp">ANALYSER → niveau supérieur</div>
+        <h3>Vers l'analyse de données complexes</h3>
+        <p>Approfondir analyses multivariées et séries temporelles, et confronter rigoureusement hypothèses et réalité, en m'appuyant sur les fondations Python acquises.</p>
+        <div class="via"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg> SAÉ d'analyse avancée &amp; séries temporelles de production</div>
+      </article>
+      <article class="proj-card reveal d2" style="--cc:var(--c-valoriser)">
+        <div class="p-comp">VALORISER → niveau supérieur</div>
+        <h3>Convaincre des décideurs</h3>
+        <p>Monter en exigence sur les tableaux de bord professionnels et la défense argumentée des choix d'analyses, adaptée à chaque interlocuteur.</p>
+        <div class="via"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg> Reporting Power BI / Qlik en alternance &amp; SAÉ de restitution</div>
+      </article>
+      <article class="proj-card reveal d3" style="--cc:var(--c-modeliser)">
+        <div class="p-comp">MODÉLISER → niveau 2</div>
+        <h3>Du modèle statistique au machine learning</h3>
+        <p>Passer de la statistique inférentielle aux modèles prédictifs : régression, classification et premiers algorithmes d'apprentissage automatique (scikit-learn).</p>
+        <div class="via"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg> SAÉ modélisation / IA &amp; projet appliqué aux données PEP</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STACK ===================== -->
+<section class="section section--alt" id="stack">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Boîte à outils</span>
+      <h2>Mes compétences techniques</h2>
+    </div>
+    <div class="grid grid-2">
+      <div class="reveal">
+        <div class="stack-group">
+          <h4>Langages &amp; programmation</h4>
+          <div class="stack-badges">
+            <span class="badge"><span class="b-ico" style="background:#276dc3">R</span>R</span>
+            <span class="badge"><span class="b-ico" style="background:#3776ab">Py</span>Python</span>
+            <span class="badge"><span class="b-ico" style="background:#e38000">SQL</span>SQL</span>
+            <span class="badge"><span class="b-ico" style="background:#0b5cab">SAS</span>SAS</span>
+            <span class="badge"><span class="b-ico" style="background:#1d6f42">VBA</span>VBA</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h4>Analyse &amp; statistique</h4>
+          <div class="stack-badges">
+            <span class="badge">FactoMineR</span>
+            <span class="badge">Pandas / NumPy</span>
+            <span class="badge">Régression &amp; ANOVA</span>
+            <span class="badge">ACP / Clustering</span>
+            <span class="badge">Séries temporelles</span>
+            <span class="badge">Échantillonnage</span>
+          </div>
+        </div>
+      </div>
+      <div class="reveal d1">
+        <div class="stack-group">
+          <h4>Décisionnel &amp; datavisualisation</h4>
+          <div class="stack-badges">
+            <span class="badge"><span class="b-ico" style="background:#18c39a">Q</span>Qlik Sense / Cloud</span>
+            <span class="badge"><span class="b-ico" style="background:#f2c811;color:#222">BI</span>Power BI</span>
+            <span class="badge">ggplot2</span>
+            <span class="badge">Matplotlib / Seaborn</span>
+            <span class="badge">Excel avancé</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h4>Données &amp; méthodes</h4>
+          <div class="stack-badges">
+            <span class="badge">Modélisation (MCD)</span>
+            <span class="badge">Datawarehouse / Oracle</span>
+            <span class="badge">ERP (JDE)</span>
+            <span class="badge">Méthode agile</span>
+            <span class="badge">RGPD</span>
+            <span class="badge">Sphinx</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h4>Langues</h4>
+          <div class="stack-badges">
+            <span class="badge">Français (natif)</span>
+            <span class="badge">Anglais</span>
+            <span class="badge">Espagnol</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact reveal">
+      <h2>Me contacter</h2>
+      <p>Une question sur mon parcours, mes projets ou mes compétences ? N'hésitez pas à m'écrire.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="mailto:clementroussel49@gmail.com">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          clementroussel49@gmail.com
+        </a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/cl%C3%A9ment-roussel-3783a6331/" target="_blank" rel="noopener">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.25 8h4.5V23H.25V8zM8 8h4.3v2.05h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.5c0-1.55-.03-3.55-2.16-3.55-2.16 0-2.5 1.69-2.5 3.43V23H8V8z"/></svg>
+          LinkedIn
+        </a>
+        <a class="btn btn-ghost" href="assets/docs/CV_Clement_Roussel.pdf" target="_blank" rel="noopener">Mon CV (PDF)</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="wrap">
+    <p>© <span id="year">2026</span> Clément Roussel · Portfolio BUT Science des Données · IUT de Vannes</p>
+    <p>Conçu comme un site statique · données d'alternance anonymisées</p>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" aria-hidden="true">
+  <figure>
+    <img src="" alt="">
+    <figcaption></figcaption>
+  </figure>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
