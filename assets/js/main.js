@@ -86,6 +86,18 @@
     })
   );
 
+  /* ---- BUT1 / BUT2 level toggle ---- */
+  const levelBtns = document.querySelectorAll(".level-btn");
+  levelBtns.forEach((btn) =>
+    btn.addEventListener("click", () => {
+      const lvl = btn.dataset.level;
+      document.body.classList.toggle("view-but1", lvl === "but1");
+      levelBtns.forEach((b) => b.classList.toggle("active", b.dataset.level === lvl));
+      const allBtn = document.querySelector(".filter-btn[data-filter='all']");
+      if (allBtn) allBtn.click();
+    })
+  );
+
   /* ---- SAÉ detail expand ---- */
   document.querySelectorAll(".sae-toggle").forEach((btn) =>
     btn.addEventListener("click", () => {

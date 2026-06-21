@@ -25,7 +25,6 @@
       <a href="#saes">SAÉ</a>
       <a href="#alternance">Alternance</a>
       <a href="#projection">BUT3</a>
-      <a class="nav-cta" href="#contact">Me contacter</a>
     </nav>
     <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
@@ -131,11 +130,15 @@
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">Référentiel BUT SD · Parcours EMS</span>
-      <h2>Les 4 compétences que je développe</h2>
-      <p class="lead">Le BUT Science des Données structure la formation autour de compétences déclinées par niveau. Voici celles de mon parcours EMS, avec le niveau visé en 2ᵉ année et leurs apprentissages critiques. Cliquez une compétence pour voir les SAÉ qui l'illustrent.</p>
+      <h2>Les compétences que je développe</h2>
+      <p class="lead">Le BUT Science des Données structure la formation autour de compétences déclinées par niveau. Bascule entre <strong>BUT1</strong> et <strong>BUT2</strong> pour voir le niveau atteint et les apprentissages critiques associés.</p>
+      <div class="level-toggle" role="tablist" aria-label="Choisir l'année">
+        <button class="level-btn active" data-level="but2">BUT2 <small>2025-2026</small></button>
+        <button class="level-btn" data-level="but1">BUT1 <small>2024-2025</small></button>
+      </div>
     </div>
 
-    <div class="grid grid-4">
+    <div class="grid grid-4 lvl-but2">
       <!-- Traiter -->
       <article class="comp-card reveal" style="--cc:var(--c-traiter);--ccw:var(--c-traiter-w)">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
@@ -220,6 +223,63 @@
         </div>
       </article>
     </div>
+
+    <!-- Compétences BUT1 (niveau 1) -->
+    <div class="grid grid-3 lvl-but1">
+      <article class="comp-card" style="--cc:var(--c-traiter);--ccw:var(--c-traiter-w)">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+        <span class="lvl">Niveau 1</span>
+        <h3>Traiter</h3>
+        <p class="sub">Des données à des fins décisionnelles : <em>traiter des données structurées</em>.</p>
+        <ul class="ac-list">
+          <li><span class="ac-code">AC11.01</span> · Comprendre le besoin du client</li>
+          <li><span class="ac-code">AC11.03</span> · Connaître la syntaxe des langages</li>
+          <li><span class="ac-code">AC11.04</span> · Maîtriser la structure des données</li>
+          <li><span class="ac-code">AC11.05/06</span> · Structures algorithmiques &amp; programmation</li>
+        </ul>
+        <div class="comp-prog">
+          <div class="pbar"><i class="now"></i><i></i><i></i></div>
+          <p class="ptxt"><b>BUT1 niv. 1 (acquis)</b> &nbsp;·&nbsp; BUT2 niv. 2 &nbsp;·&nbsp; BUT3 niv. 3</p>
+        </div>
+        <div class="links"><span class="chip-mini" data-jump="traiter">SAÉ 1-01 · 2-01 →</span></div>
+      </article>
+
+      <article class="comp-card" style="--cc:var(--c-analyser);--ccw:var(--c-analyser-w)">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M4 19h16M8 16l3-4 3 2 4-6"/></svg></div>
+        <span class="lvl">Niveau 1</span>
+        <h3>Analyser</h3>
+        <p class="sub">Statistiquement les données : <em>mettre en œuvre une analyse descriptive</em>.</p>
+        <ul class="ac-list">
+          <li><span class="ac-code">AC12.01</span> · Caractéristiques des sources de données</li>
+          <li><span class="ac-code">AC12.02</span> · Données propres et préparées</li>
+          <li><span class="ac-code">AC12.03/04</span> · Synthèses numériques &amp; graphiques</li>
+          <li><span class="ac-code">AC12.05/06</span> · Modèle probabiliste, fluctuation d'échantillonnage</li>
+        </ul>
+        <div class="comp-prog">
+          <div class="pbar"><i class="now"></i><i></i><i></i></div>
+          <p class="ptxt"><b>BUT1 niv. 1 (acquis)</b> &nbsp;·&nbsp; BUT2 niv. 2 &nbsp;·&nbsp; BUT3 niv. 3</p>
+        </div>
+        <div class="links"><span class="chip-mini" data-jump="analyser">SAÉ 2-02 · 2-06 →</span></div>
+      </article>
+
+      <article class="comp-card" style="--cc:var(--c-valoriser);--ccw:var(--c-valoriser-w)">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><rect x="7" y="11" width="3" height="7"/><rect x="12" y="7" width="3" height="11"/><rect x="17" y="13" width="3" height="5"/></svg></div>
+        <span class="lvl">Niveau 1</span>
+        <h3>Valoriser</h3>
+        <p class="sub">Une production en contexte pro : <em>contextualiser et présenter les données</em>.</p>
+        <ul class="ac-list">
+          <li><span class="ac-code">AC13.01</span> · Repérer les biais d'une enquête</li>
+          <li><span class="ac-code">AC13.02</span> · Contextualiser ses données</li>
+          <li><span class="ac-code">AC13.03</span> · Mettre en avant des indicateurs pertinents</li>
+          <li><span class="ac-code">AC13.05/06</span> · Datavisualisation &amp; expression précise</li>
+        </ul>
+        <div class="comp-prog">
+          <div class="pbar"><i class="now"></i><i></i><i></i></div>
+          <p class="ptxt"><b>BUT1 niv. 1 (acquis)</b> &nbsp;·&nbsp; BUT2 niv. 2 &nbsp;·&nbsp; BUT3 niv. 3</p>
+        </div>
+        <div class="links"><span class="chip-mini" data-jump="valoriser">SAÉ 2-05 · 2-06 →</span></div>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -229,7 +289,11 @@
     <div class="section-head reveal">
       <span class="eyebrow">Situations d'Apprentissage et d'Évaluation</span>
       <h2>Mes projets de formation, illustrés par des rendus concrets</h2>
-      <p class="lead">Chaque SAÉ est une tâche authentique qui développe une ou plusieurs compétences. Toutes les figures ci-dessous sont issues de mes propres rendus R. Filtrez par compétence :</p>
+      <p class="lead">Chaque SAÉ est une tâche authentique qui développe une ou plusieurs compétences. Toutes les illustrations ci-dessous sont issues de mes propres rendus. Bascule entre BUT1 et BUT2, puis filtre par compétence :</p>
+      <div class="level-toggle" role="tablist" aria-label="Choisir l'année">
+        <button class="level-btn active" data-level="but2">BUT2 <small>2025-2026</small></button>
+        <button class="level-btn" data-level="but1">BUT1 <small>2024-2025</small></button>
+      </div>
     </div>
 
     <div class="filters reveal">
@@ -237,10 +301,10 @@
       <button class="filter-btn" data-filter="traiter">Traiter</button>
       <button class="filter-btn" data-filter="analyser">Analyser</button>
       <button class="filter-btn" data-filter="valoriser">Valoriser</button>
-      <button class="filter-btn" data-filter="modeliser">Modéliser</button>
+      <button class="filter-btn lvl-but2" data-filter="modeliser">Modéliser</button>
     </div>
 
-    <div class="grid grid-2">
+    <div class="grid grid-2 lvl-but2">
 
       <!-- SAÉ 3.EMS.01 -->
       <article class="sae-card reveal" data-comp="modeliser analyser">
@@ -473,7 +537,7 @@
                 <p>La divergence entre le résultat « scolaire » attendu et la sortie de R, due à l'écart-type corrigé (n−1) : résolue par un facteur de correction <code>sqrt((n-1)/n)</code>. Gestion du signe des vecteurs propres et de la lisibilité du plan factoriel (affichage des 15 individus les plus contributifs).</p>
                 <h4>À télécharger</h4>
                 <div class="dl-row">
-                  <a class="dl-chip" href="assets/downloads/SAE4-02_Notebook_ACP_Clustering.html" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>Notebook ACP / clustering <small>HTML</small></a>
+                  <a class="dl-chip" href="https://clementrousselcrimeusa2019.shinyapps.io/SAE4-02/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l2-2a5 5 0 00-7-7l-1 1M14 11a5 5 0 00-7 0l-2 2a5 5 0 007 7l1-1"/></svg>Application Shiny <small>en ligne</small></a>
                   <a class="dl-chip" href="assets/downloads/SAE4-02_Interpretation_ACP_crimes.docx" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>Interprétation ACP crimes <small>DOCX</small></a>
                 </div>
               </div>
@@ -487,12 +551,136 @@
       </article>
     </div>
 
-    <!-- Ressources mobilisées -->
-    <div class="section-head reveal" style="margin-top:3.4rem;margin-bottom:1.6rem">
+    <!-- ===== SAÉ BUT1 ===== -->
+    <div class="grid grid-2 lvl-but1">
+
+      <article class="sae-card" data-comp="traiter">
+        <div class="sae-fig" data-zoom data-caption="SAÉ 1-01 : requête SQL et visualisation sur une base Netflix (BUT1)">
+          <img src="assets/img/figures/but1_1-01_sql.png" alt="Requête SQL et visualisation Netflix">
+          <div class="fig-cap">Requête SQL &amp; visualisation · base Netflix</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 1-01 · Reporting &amp; bases de données</div>
+          <h3>Du reporting sur une base de 9 tables</h3>
+          <div class="sae-tags"><span class="tag t-traiter">Traiter</span></div>
+          <p class="sae-desc">Analyse d'une base Netflix de 9 tables interconnectées : requêtes SQL et tableaux de bord Excel à connexions dynamiques (top films, séries, acteurs, statistiques par année…).</p>
+          <div class="sae-tools"><span>SQL</span><span>Excel</span><span>reporting</span></div>
+          <div class="sae-more">
+            <div class="sae-detail"><div>
+              <h4>Ma contribution</h4>
+              <p>7 des 9 requêtes SQL et leurs graphiques associés, ainsi qu'un compte rendu personnel détaillant la démarche d'une requête attribuée.</p>
+              <h4>Apprentissages critiques</h4>
+              <div class="ac-row"><b>AC11.01</b> : Interpréter et prendre en compte le besoin du commanditaire.</div>
+              <div class="ac-row"><b>AC11.03/04</b> : Maîtriser la syntaxe SQL et la structure des données à exploiter.</div>
+            </div></div>
+            <button class="sae-toggle" aria-expanded="false"><span>Voir le détail</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="sae-card" data-comp="traiter">
+        <div class="sae-fig" data-zoom data-caption="SAÉ 2-01 : relations Access issues du MCD (projet CompuDistri, BUT1)">
+          <img src="assets/img/figures/but1_2-01_access.png" alt="Modèle relationnel Access CompuDistri">
+          <div class="fig-cap">Modèle relationnel sous Access · CompuDistri</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 2-01 · Conception de base de données</div>
+          <h3>Modéliser une base de données de A à Z</h3>
+          <div class="sae-tags"><span class="tag t-traiter">Traiter</span></div>
+          <p class="sae-desc">Conception et modélisation d'une base de données relationnelle pour informatiser la gestion de l'entreprise CompuDistri (modèle conceptuel, dictionnaire des données, rapports).</p>
+          <div class="sae-tools"><span>Access</span><span>Looping</span><span>SQL</span><span>MCD</span></div>
+          <div class="sae-more">
+            <div class="sae-detail"><div>
+              <h4>Ma contribution</h4>
+              <p>Dictionnaire des données, modèle conceptuel sous Looping, tous les rapports, génération du fichier HTML5, requêtes SQL de création des tables et graphe de couverture minimale.</p>
+              <h4>Apprentissages critiques</h4>
+              <div class="ac-row"><b>AC11.05</b> : Comprendre les structures algorithmiques de base et leur usage.</div>
+              <div class="ac-row"><b>AC11.06</b> : Prendre conscience de l'intérêt de la programmation.</div>
+            </div></div>
+            <button class="sae-toggle" aria-expanded="false"><span>Voir le détail</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="sae-card" data-comp="analyser">
+        <div class="sae-fig" data-zoom data-caption="SAÉ 2-02 : notebook de statistique inférentielle (BUT1)">
+          <img src="assets/img/figures/but1_2-02_notebook.png" alt="Notebook statistique inférentielle">
+          <div class="fig-cap">Estimation &amp; intervalles de confiance · notebook</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 2-02 · Statistique inférentielle</div>
+          <h3>Estimer, tester, quantifier l'incertitude</h3>
+          <div class="sae-tags"><span class="tag t-analyser">Analyser</span></div>
+          <p class="sae-desc">Tests de normalité, estimation de paramètres, intervalles de fluctuation et de confiance, et étude de l'impact de la stratification des populations sur données réelles.</p>
+          <div class="sae-tools"><span>notebooks</span><span>statistique inférentielle</span><span>probabilités</span></div>
+          <div class="sae-more">
+            <div class="sae-detail"><div>
+              <h4>Ma contribution</h4>
+              <p>Réalisation de l'ensemble des séances de travaux pratiques (tests, estimation, intervalles de confiance, stratification).</p>
+              <h4>Apprentissages critiques</h4>
+              <div class="ac-row"><b>AC12.05</b> : Comprendre l'intérêt de l'utilisation d'un modèle probabiliste.</div>
+              <div class="ac-row"><b>AC12.06</b> : Appréhender la fluctuation d'échantillonnage à l'aide de simulations.</div>
+            </div></div>
+            <button class="sae-toggle" aria-expanded="false"><span>Voir le détail</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="sae-card" data-comp="valoriser">
+        <div class="sae-fig" data-zoom data-caption="SAÉ 2-05 : flyer d'entreprise (jeu de simulation de gestion, BUT1)">
+          <img src="assets/img/figures/but1_2-05_flyer.png" alt="Flyer d'entreprise jeu de simulation">
+          <div class="fig-cap">Flyer d'entreprise · jeu de simulation</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 2-05 · Simulation de gestion d'entreprise</div>
+          <h3>Piloter une entreprise fictive et restituer</h3>
+          <div class="sae-tags"><span class="tag t-valoriser">Valoriser</span></div>
+          <p class="sae-desc">À la tête d'une entreprise fictive sur un jeu de simulation : adapter la stratégie face aux événements annuels, puis restituer les résultats via un flyer et une présentation.</p>
+          <div class="sae-tools"><span>Excel</span><span>dataviz</span><span>communication</span></div>
+          <div class="sae-more">
+            <div class="sae-detail"><div>
+              <h4>Ma contribution</h4>
+              <p>Remplissage du tableau de suivi Excel chaque année (évolution de l'entreprise) et réalisation du flyer d'entreprise.</p>
+              <h4>Apprentissages critiques</h4>
+              <div class="ac-row"><b>AC13.03</b> : Mettre en évidence des résultats clés via des indicateurs pertinents.</div>
+              <div class="ac-row"><b>AC13.05</b> : Comprendre l'intérêt de la datavisualisation et de l'infographie.</div>
+            </div></div>
+            <button class="sae-toggle" aria-expanded="false"><span>Voir le détail</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="sae-card" data-comp="analyser valoriser">
+        <div class="sae-fig" data-zoom data-caption="SAÉ 2-06 : fiche synthèse patient générée par macro VBA (projet ComPare, AP-HP, BUT1)">
+          <img src="assets/img/figures/but1_2-06_fiche.png" alt="Fiche synthèse patient VBA">
+          <div class="fig-cap">Fiche synthèse patient · macro VBA</div>
+        </div>
+        <div class="sae-body">
+          <div class="sae-id">SAÉ 2-06 · Automatisation VBA (AP-HP)</div>
+          <h3>Automatiser 1 500 lignes de VBA pour l'AP-HP</h3>
+          <div class="sae-tags"><span class="tag t-analyser">Analyser</span><span class="tag t-valoriser">Valoriser</span></div>
+          <p class="sae-desc">Automatisation de fiches synthèse PDF pour comparer les patients (projet ComPare de l'AP-HP), via une macro VBA de plus de 1 500 lignes. J'étais chef de projet, au contact direct du client.</p>
+          <div class="sae-tools"><span>VBA</span><span>Excel</span><span>automatisation</span></div>
+          <div class="sae-more">
+            <div class="sae-detail"><div>
+              <h4>Ma contribution</h4>
+              <p>Dictionnaire des données, macro VBA (1 500+ lignes) générant la fiche synthèse, manuel d'utilisation, puis assemblage de toutes les macros et vérification du bon fonctionnement.</p>
+              <h4>Apprentissages critiques</h4>
+              <div class="ac-row"><b>AC12.03/04</b> : Synthèses numériques et graphiques pour décrire variables et liaisons.</div>
+              <div class="ac-row"><b>AC13.06</b> : Expression précise et nuancée dans la communication des résultats.</div>
+            </div></div>
+            <button class="sae-toggle" aria-expanded="false"><span>Voir le détail</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Ressources mobilisées (BUT2) -->
+    <div class="section-head reveal lvl-but2" style="margin-top:3.4rem;margin-bottom:1.6rem">
       <h2 style="font-size:1.5rem">Ressources &amp; outils mobilisés</h2>
       <p class="lead">Au-delà des SAÉ, ces enseignements consolident chaque compétence.</p>
     </div>
-    <div class="grid grid-4">
+    <div class="grid grid-4 lvl-but2">
       <article class="sae-card reveal" data-comp="traiter" style="">
         <div class="sae-body">
           <div class="sae-id">Ressource · SID</div>
@@ -862,32 +1050,14 @@
   </div>
 </section>
 
-<!-- ===================== CONTACT ===================== -->
-<section class="section" id="contact">
-  <div class="wrap">
-    <div class="contact reveal">
-      <h2>Me contacter</h2>
-      <p>Une question sur mon parcours, mes projets ou mes compétences ? N'hésitez pas à m'écrire.</p>
-      <div class="contact-actions">
-        <a class="btn btn-primary" href="mailto:clementroussel49@gmail.com">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
-          clementroussel49@gmail.com
-        </a>
-        <a class="btn btn-ghost" href="https://www.linkedin.com/in/cl%C3%A9ment-roussel-3783a6331/" target="_blank" rel="noopener">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.25 8h4.5V23H.25V8zM8 8h4.3v2.05h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.5c0-1.55-.03-3.55-2.16-3.55-2.16 0-2.5 1.69-2.5 3.43V23H8V8z"/></svg>
-          LinkedIn
-        </a>
-        <a class="btn btn-ghost" href="assets/docs/CV_Clement_Roussel.pdf" target="_blank" rel="noopener">Mon CV (PDF)</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ===================== FOOTER ===================== -->
 <footer class="footer">
   <div class="wrap">
     <p>© <span id="year">2026</span> Clément Roussel · Portfolio BUT Science des Données · IUT de Vannes</p>
-    <p>Conçu comme un site statique · données d'alternance anonymisées</p>
+    <p class="foot-links">
+      <a href="https://www.linkedin.com/in/cl%C3%A9ment-roussel-3783a6331/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="assets/docs/CV_Clement_Roussel.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+    </p>
   </div>
 </footer>
 
